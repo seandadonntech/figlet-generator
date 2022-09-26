@@ -1,0 +1,19 @@
+roject]
+
+name = "figletzerogenerator"
+version = "2.0"
+authors = [
+  { name="seandadonntech", email="lilcryptotech@gmail.com" },
+]
+description = "A small example package for working with pyfiglet"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seandadonntech/figlet-generator"
+"Bug Tracker" = "https://github.com/seandadonntech/figlet-generator/issues"
