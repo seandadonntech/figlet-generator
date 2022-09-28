@@ -20,3 +20,8 @@ if direction == "doom":
  input = input("what text do you want to put in doom mode?")
  doom = pyfiglet.figlet_format(f"{input}", font = "doom")
 print(doom)
+
+if direction == "roman":
+ input = input("what text do you want to in roman mode")
+ roman = pyfiglet.figlet_format(f"{input}", font = "roman")
+ print(roman)
