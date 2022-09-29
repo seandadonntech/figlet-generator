@@ -25,3 +25,10 @@ if direction == "roman":
  input = input("what text do you want to in roman mode")
  roman = pyfiglet.figlet_format(f"{input}", font = "roman")
  print(roman)
+if direction == "flag":
+ input = input("what text do you what in usa flag mode?")
+ flag = pyfiglet.figlet_format(f"{input}", font = "usaflag")
+ print(flag)
+
+print(f"the  you chose was {direction} ")
+
