@@ -29,6 +29,10 @@ if direction == "flag":
  input = input("what text do you what in usa flag mode?")
  flag = pyfiglet.figlet_format(f"{input}", font = "usaflag")
  print(flag)
+ if direction == "computer":
+ input = input('what text do you want to put in comoputer mode\n')
+computer = pyfiglet.figlet_format(f"{input}", font = "computer" )
+print(computer)
 
-print(f"the  you chose was {direction} ")
+print(f"  you chose was {direction} ")
 
